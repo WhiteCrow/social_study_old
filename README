@@ -1,17 +1,7 @@
-Rails3 + Devise + Rspec + Cucumber
-========================
+开发计划：https://github.com/WhiteCrow/pair_study/blob/document/%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92.md
 
-You can use this project as a starting point for a Rails web application. It requires Rails 3 and uses Devise http://github.com/plataformatec/devise for user management and authentication, showing how to add RSpec and Cucumber.
-________________________
+交互设计：https://github.com/WhiteCrow/pair_study/blob/document/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1.md
 
-See the README file on GitHub
+需求文档：https://github.com/WhiteCrow/pair_study/blob/document/%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.md
 
-For more information, please see the updated README file on GitHub:
-
-https://github.com/railsapps/rails3-devise-rspec-cucumber
-
-________________________
-
-Public Domain Dedication
-
-This work is a compilation and derivation from other previously released works. With the exception of various included works, which may be restricted by other licenses, the author or authors of this code dedicate any and all copyright interest in this code to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this code under copyright law.
+运营计划：https://github.com/WhiteCrow/pair_study/blob/document/%E8%BF%90%E8%90%A5%E8%AE%A1%E5%88%92.md
