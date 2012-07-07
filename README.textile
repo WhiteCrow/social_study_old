@@ -1,7 +1,7 @@
-开发计划：https://github.com/WhiteCrow/pair_study/%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92.md
+开发计划：https://github.com/WhiteCrow/pair_study/blob/develop/%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92.md
 
-交互设计：https://github.com/WhiteCrow/pair_study/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1.md
+交互设计：https://github.com/WhiteCrow/pair_study/blob/develop/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1.md
 
-需求文档：https://github.com/WhiteCrow/pair_study/%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.md
+需求文档：https://github.com/WhiteCrow/pair_study/blob/develop/%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.md
 
-运营计划：https://github.com/WhiteCrow/pair_study/%E8%BF%90%E8%90%A5%E8%AE%A1%E5%88%92.mdh
+运营计划：https://github.com/WhiteCrow/pair_study/blob/develop/%E8%BF%90%E8%90%A5%E8%AE%A1%E5%88%92.mdh
