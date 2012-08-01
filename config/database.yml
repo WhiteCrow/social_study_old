@@ -3,7 +3,7 @@ development:
   encoding: utf8
   database: pair_study_development
   username: root
-  password: "123456"
+  password: mantra1000
   host: 127.0.0.1
   port: 3306
 
@@ -12,7 +12,7 @@ test: &test
   encoding: utf8
   database: pair_study_test
   username: root
-  password: "123456"
+  password: mantra1000
   host: 127.0.0.1
   port: 3306
 
@@ -21,7 +21,7 @@ production:
   encoding: utf8
   database: pair_study_production
   username: root
-  password: "123456"
+  password: mantra1000 #123456
   host: 127.0.0.1
   port: 3306
 
