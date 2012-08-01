@@ -14,8 +14,7 @@ Version:1.0
 * Knowledge
 * User
 * UserKnowledge（延伸表）
-* Resource
-* Reference
+* StudyResource
 * Experience
 * Note
 * Title
@@ -28,8 +27,7 @@ Version:1.0
 * （"——<" 表示一对多）
 * UserKnowledge ——< User
 * UserKnowledge ——< Knowledge
-* UserKnowledge ——< Resource
-* UserKnowledge ——< Reference
+* UserKnowledge ——< StudyResource
 * UserKnowledge ——< Experience
 * UserKnowledge ——< Note
 * UserTitle ——< User
@@ -39,6 +37,20 @@ Version:1.0
 * KnowledgeContributor ——< Knowledge
 * KnowledgeContributor ——< Contributor
 * User ——< Contributor
+
+###实体属性
+* Knowledge: name, description, image_url
+* User: name, email, password, contributor_id, etc……
+* UserKnowledge: user_id, knowledge_id, resource_id, experience_id, note_id
+* StudyResource: source, description
+* Note: name, source, content
+* Experience: name, content
+* Title: name, image_url, descirption
+* TitleKnowledge: title_id, knowledge_id
+* UserTitle: user_id, title_id
+* Contributor: name, image_url, country, birth_date, death_date
+* KnowledgeContributor: knowledge_id, contributor_id
+
 
 ##安装脚本备忘
 
