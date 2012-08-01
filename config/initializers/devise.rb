@@ -4,8 +4,7 @@ Devise.setup do |config|
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class with default "from" parameter.
-  config.mailer_sender = "please-change-me-at-config-initializers-devise@example.com"
-
+  config.mailer_sender = "please-change-me-at-config-initializers-devise@development.com"
   # Configure the class responsible to send e-mails.
   # config.mailer = "Devise::Mailer"
 
@@ -82,7 +81,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = "5a62ee0fe2b1d7118e61b22da82e4321b03ea5324afb3640a5fd2b8ea4d3d93d3cb35a4f7e3b2f007d45ebc8d6b79038ddf62adaf13e68fc39cefbc87e588f5a"
+  # config.pepper = "cb795e9b4d91b7f8de54cc06c798d4470d5430506018a4ba0cdf01051249df1c91601bd69a3b99ad90088f2785f8ca4a50244caeb270783b096d1b967c61d494"
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -114,7 +113,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :validatable
   # Range for password length. Default is 6..128.
-  # config.password_length = 6..128
+  config.password_length = 6..20
 
   # Email regex used to validate email formats. It simply asserts that
   # an one (and only one) @ exists in the given string. This is mainly
@@ -125,7 +124,7 @@ Devise.setup do |config|
   # The time you want to timeout the user session without activity. After this
   # time the user will be asked for credentials again. Default is 30 minutes.
   # config.timeout_in = 30.minutes
-
+  
   # If true, expires auth token on session timeout.
   # config.expire_auth_token_on_timeout = false
 
@@ -200,7 +199,7 @@ Devise.setup do |config|
   # config.navigational_formats = ["*/*", :html]
 
   # The default HTTP method used to sign out a resource. Default is :delete.
-  config.sign_out_via = Rails.env.test? ? :get : :delete
+  config.sign_out_via = :get
 
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
