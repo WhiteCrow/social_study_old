@@ -1,7 +1,1 @@
-开发计划：见根目录
-
-交互设计：见根目录
-
-需求文档：见根目录
-
-运营计划：见根目录
+Change the project to new dictory: https://github.com/WhiteCrow/social_study
